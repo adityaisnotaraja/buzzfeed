@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "@fortawesome/fontawesome-free/css/all.css";
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

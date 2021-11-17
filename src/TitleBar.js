@@ -27,7 +27,7 @@ class TitleBar extends Component {
                         <Sticker className="title-sticker" text="OMG" />
                         <Sticker className="title-sticker" text="WIN" />
                         <img src={arrowLogo}
-                            className="contributor-avatar" alt="arrow logo" />
+                            className="arrow-logo" alt="arrow logo" />
                     </div>
                 </div>
             </div>

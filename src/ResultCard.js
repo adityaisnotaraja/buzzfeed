@@ -32,7 +32,7 @@ class ResultCard extends Component {
                     </div>
                     <div className="result-card-inner-right">
                         <h1>{this.props.title}</h1>
-                        <p>{this.props.desc}</p>
+                        <p className="result-card-desc">{this.props.desc}</p>
                     </div>
                 </div>
                 <div onClick={this.reloadPage} className="buttons-row">
