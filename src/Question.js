@@ -11,9 +11,9 @@ class Question extends Component {
         this.onOptionSelected = this.onOptionSelected.bind(this);
         this.defaultErrors = [
             "Weird. We couldn't register your answer.",
-            "This is really annoying, isn't it?",
             "Don't blame the coder. Blame yourself and try again",
-            "Haa! it's almost like it's rigged... by fate."
+            "Haa! it's almost like it's rigged... by fate.",
+            "Something went wrong... in your head. Try again."
         ];
     }
 
