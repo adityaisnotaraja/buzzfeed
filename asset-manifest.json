@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/buzzfeed/static/css/main.dc827028.chunk.css",
-    "main.js": "/buzzfeed/static/js/main.56a16c73.chunk.js",
-    "main.js.map": "/buzzfeed/static/js/main.56a16c73.chunk.js.map",
-    "runtime-main.js": "/buzzfeed/static/js/runtime-main.e5759dcf.js",
-    "runtime-main.js.map": "/buzzfeed/static/js/runtime-main.e5759dcf.js.map",
+    "main.js": "/buzzfeed/static/js/main.fb0d7b65.chunk.js",
+    "main.js.map": "/buzzfeed/static/js/main.fb0d7b65.chunk.js.map",
+    "runtime-main.js": "/buzzfeed/static/js/runtime-main.eade6198.js",
+    "runtime-main.js.map": "/buzzfeed/static/js/runtime-main.eade6198.js.map",
     "static/css/2.b0b3b12c.chunk.css": "/buzzfeed/static/css/2.b0b3b12c.chunk.css",
-    "static/js/2.670dd184.chunk.js": "/buzzfeed/static/js/2.670dd184.chunk.js",
-    "static/js/2.670dd184.chunk.js.map": "/buzzfeed/static/js/2.670dd184.chunk.js.map",
-    "static/js/3.4de55d22.chunk.js": "/buzzfeed/static/js/3.4de55d22.chunk.js",
-    "static/js/3.4de55d22.chunk.js.map": "/buzzfeed/static/js/3.4de55d22.chunk.js.map",
+    "static/js/2.1e6d5641.chunk.js": "/buzzfeed/static/js/2.1e6d5641.chunk.js",
+    "static/js/2.1e6d5641.chunk.js.map": "/buzzfeed/static/js/2.1e6d5641.chunk.js.map",
+    "static/js/3.6fa7f8a4.chunk.js": "/buzzfeed/static/js/3.6fa7f8a4.chunk.js",
+    "static/js/3.6fa7f8a4.chunk.js.map": "/buzzfeed/static/js/3.6fa7f8a4.chunk.js.map",
     "index.html": "/buzzfeed/index.html",
     "static/css/2.b0b3b12c.chunk.css.map": "/buzzfeed/static/css/2.b0b3b12c.chunk.css.map",
     "static/css/main.dc827028.chunk.css.map": "/buzzfeed/static/css/main.dc827028.chunk.css.map",
-    "static/js/2.670dd184.chunk.js.LICENSE.txt": "/buzzfeed/static/js/2.670dd184.chunk.js.LICENSE.txt",
+    "static/js/2.1e6d5641.chunk.js.LICENSE.txt": "/buzzfeed/static/js/2.1e6d5641.chunk.js.LICENSE.txt",
     "static/media/admusab.bece6ccd.png": "/buzzfeed/static/media/admusab.bece6ccd.png",
     "static/media/buzzfeed-logo.1fb172d9.svg": "/buzzfeed/static/media/buzzfeed-logo.1fb172d9.svg",
     "static/media/all.css": "/buzzfeed/static/media/fa-solid-900.eeccf4f6.woff",
     "static/media/goodreadsad.cb78415f.png": "/buzzfeed/static/media/goodreadsad.cb78415f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5759dcf.js",
+    "static/js/runtime-main.eade6198.js",
     "static/css/2.b0b3b12c.chunk.css",
-    "static/js/2.670dd184.chunk.js",
+    "static/js/2.1e6d5641.chunk.js",
     "static/css/main.dc827028.chunk.css",
-    "static/js/main.56a16c73.chunk.js"
+    "static/js/main.fb0d7b65.chunk.js"
   ]
 }
