@@ -63,4 +63,6 @@
 
 .arrow-logo{
     box-shadow: 0 1px 1px 0 hsla(0,0%,49%,.5);
+    height: 50px;
+    width: 50px;
 }
