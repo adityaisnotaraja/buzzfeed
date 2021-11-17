@@ -1,0 +1,40 @@
+.result-card{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 30px 30px 30px 0px;
+    height: 500px;
+    border-radius: 3px;
+    background-image: linear-gradient(180deg, #e40c78 0%, #e32 51.44%, #e40c78 100%);
+}
+.result-card-header{
+    flex: 10%;
+    color: white;
+    width: 100%;
+    margin-left: 30px;
+    display: flex; 
+    align-items: center;
+}
+
+.result-card-title{
+    margin-left: 20px;
+}
+.result-card-inner{
+    background-color: white;
+    border-radius: 3px;
+    margin: 0px 30px 30px 30px;
+    padding: 20px;
+    width: 90%;
+    flex: 100%;
+}
+
+.buttons-row{
+    width: 95%;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 30px;
+}

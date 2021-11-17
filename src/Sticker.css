@@ -1,0 +1,15 @@
+.sticker{
+    background-color: rgb(255, 238, 0);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 1px 1px 0 hsla(0,0%,49%,.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 900;
+
+    transform: rotate(-40deg);
+}

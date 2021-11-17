@@ -1,0 +1,66 @@
+.title-bar{
+    height: 30x;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    box-shadow:  1px 3px rgba(0,0,0,.1);
+    
+    font-weight: 700; 
+    font-size: 1rem;
+    color: #222;
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.title-bar-left{
+    display: flex;
+}
+
+.title-bar-right{
+    display: flex;
+}
+
+.menu-button{
+    height: 30px;
+    padding: 18px 5px 18px 30px;
+    font-size: 30px;
+}
+.menu-options{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.icon-options{
+    margin-top: 10px;
+}
+
+.icon-option{
+    padding: 10px;
+}
+.title-sticker-row{
+    justify-content: right;
+    align-items: right;
+}
+
+.title-sticker{
+    margin-right: -5px;
+}
+
+.menu-item{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.title-logo{
+  height: 30px;
+  padding: 1rem;
+}
+
+.arrow-logo{
+    box-shadow: 0 1px 1px 0 hsla(0,0%,49%,.5);
+}
