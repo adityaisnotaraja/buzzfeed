@@ -43,7 +43,7 @@
 }
 
 .option-not-selected{
-    opacity: 70%;
+    opacity: 0.6;
 }
 
 .option-not-selected:hover{
