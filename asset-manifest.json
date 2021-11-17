@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/buzzfeed/static/css/main.0cad9243.chunk.css",
-    "main.js": "/buzzfeed/static/js/main.c882ae1d.chunk.js",
-    "main.js.map": "/buzzfeed/static/js/main.c882ae1d.chunk.js.map",
+    "main.js": "/buzzfeed/static/js/main.bac4696a.chunk.js",
+    "main.js.map": "/buzzfeed/static/js/main.bac4696a.chunk.js.map",
     "runtime-main.js": "/buzzfeed/static/js/runtime-main.eade6198.js",
     "runtime-main.js.map": "/buzzfeed/static/js/runtime-main.eade6198.js.map",
     "static/css/2.b0b3b12c.chunk.css": "/buzzfeed/static/css/2.b0b3b12c.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.b0b3b12c.chunk.css",
     "static/js/2.1e6d5641.chunk.js",
     "static/css/main.0cad9243.chunk.css",
-    "static/js/main.c882ae1d.chunk.js"
+    "static/js/main.bac4696a.chunk.js"
   ]
 }
