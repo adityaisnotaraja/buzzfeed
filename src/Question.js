@@ -9,15 +9,29 @@ class Question extends Component {
         super(props);
         this.state = { options: Array(this.props.numOptions).fill(false) };
         this.onOptionSelected = this.onOptionSelected.bind(this);
+        this.defaultErrors = [
+            "Something went wrong. Try again?",
+            "Weird. We couldn't register your answer.",
+            "This really annoying, isn't it?",
+            "Don't blame the coder. Blame yourself and try again",
+            "Haa! it's almost like it's rigged... by fate."
+        ];
     }
 
     onOptionSelected(index) {
         const updatedOptions = Array(this.props.numOptions).fill(false);
-        updatedOptions[index] = true;
-        this.setState({
-            options: updatedOptions
-        });
-        this.props.onQuesAnswered(this.props.qIndex, index);
+        if (this.props.qIndex === 5 && index != 3) {
+            const length = this.defaultErrors.length;
+
+            const message = this.defaultErrors[Math.floor(Math.random() * length)];
+            alert("Fatal Error! " + message);
+        } else {
+            updatedOptions[index] = true;
+            this.setState({
+                options: updatedOptions
+            });
+            this.props.onQuesAnswered(this.props.qIndex, index);
+        }
     }
 
     render() {

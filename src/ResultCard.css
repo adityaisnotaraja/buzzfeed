@@ -23,6 +23,13 @@
 .result-card-title{
     margin-left: 20px;
 }
+.result-card-desc{
+    line-height: 1.4;
+}
+.result-image{
+    height: 275px;
+    width: auto;
+}
 .result-card-inner{
     background-color: white;
     border-radius: 3px;
@@ -30,6 +37,18 @@
     padding: 20px;
     width: 90%;
     flex: 100%;
+    display: flex;
+}
+
+.result-card-inner-left{
+    flex: 40%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.result-card-inner-right{
+    flex: 60%;
+    margin-left: 10px;
 }
 
 .buttons-row{

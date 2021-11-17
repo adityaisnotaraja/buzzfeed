@@ -49,7 +49,7 @@ class Quiz extends Component {
         window.location.replace("https://www.goodreads.com/user/show/10256866-musab");
     }
     render() {
-        const colours = ["#CC4165", "#E4734F", "#FAC70B", "#127681", "#21174A", "#6D3580"];
+        const colours = ["#CC4165", "#E4734F", "#FFCE45", "#34BE82", "#2F86A6", "#6D3580"];
         const questionsHtml = QuestionsLog.map((q, i) => <Question question={q.question}
             options={q.options}
             bgColor={colours[i]}
