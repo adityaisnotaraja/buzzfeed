@@ -9,6 +9,7 @@ class Question extends Component {
         super(props);
         this.state = { options: Array(this.props.numOptions).fill(false) };
         this.onOptionSelected = this.onOptionSelected.bind(this);
+        //error messages to randomly choose from 
         this.defaultErrors = [
             "Weird. We couldn't register your answer.",
             "Don't blame the coder. Blame yourself and try again",
@@ -23,7 +24,7 @@ class Question extends Component {
             const length = this.defaultErrors.length;
 
             const message = this.defaultErrors[Math.floor(Math.random() * length)];
-            alert("Fatal Error! " + message);
+            alert(message);
         } else {
             updatedOptions[index] = true;
             this.setState({
